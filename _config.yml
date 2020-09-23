@@ -39,7 +39,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/me-256.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -52,15 +52,15 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             About
-    url:               /about/    
+    url:               /about/
   - title:             Experience
     url:               /experience/
   - title:             Projects
-    url:               /example/
+    url:               /projects/
   - title:             Design
-    url:               /docs/
+    url:               /design/
   - title:             Download Resume
-    url:               /resume/
+    url:               /assets/docs/resume.pdf
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2020. All rights reserved.
@@ -99,9 +99,9 @@ remote_theme: hydecorp/hydejack@v9.0.4
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
- 
+
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/sidebar-bg.png
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -221,15 +221,15 @@ hydejack:
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.
   # Run Jekyll with the `JEKYLL_ENV` environment variable set to `production` to enable.
-  no_search:           false
+  no_search:           true
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
   no_inline_css:       false
 
-  # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
+  # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   # This will increase site build speed!
-  no_page_style:       false
+  no_page_style:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -267,7 +267,7 @@ hydejack:
 
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
-  # seeing an old date. 
+  # seeing an old date.
   hide_dates:          false
 
   # Note that dark mode only works in the PRO version of Hydejack.
@@ -290,7 +290,6 @@ hydejack:
     cache_version:     7
     precache_assets:
       - /assets/img/swipe.svg
-
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
@@ -380,7 +379,7 @@ compress_html:
 sass:
   style:               compressed
 
-  
+
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
 
@@ -388,25 +387,25 @@ jekyll_compose:
   default_front_matter:
     drafts:
       layout: post
-      description: > 
+      description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
     posts:
       layout: post
-      description: > 
+      description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
     projects:
       layout: project
-      description: > 
+      description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
       links:
         - title: Project Link
           url: https://example.com

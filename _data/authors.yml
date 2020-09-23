@@ -9,20 +9,22 @@ jmc:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     Hi!
-    I'm a Computer Science student, about to graduating in June 2021 as a Bachelor at the University of São Paulo, in Brazil.
-    I've explored a broad range of areas throught my undergrad years but I have to say that computer graphics and machine learning
-    (specially the interssection between both!) is what brighthens my eyes the most.
+    I'm a **Computer Science** student, graduating in **June 2021** as a Bachelor at the University of São Paulo, in Brazil.
+
+    My main interests are **computer graphics** and **machine learning** (specially the interssection between both!). I quite like **back-end development** as well.
     By taking part of internship programs I realized how important is to consider scalability, performance and reliability when
     designing and implementing an application, so I've been focusing on studying cloud computing (AWS and Azure), parallelization and distributed infrastucture.
-    I'm looking foward to where my career will take me! I value beeing able to constantly learn from my peers and workplaces where I can write quality code. 
+    On my free time I love playing boardgames, reading sci-fi and creating illustrations.
+
+    I'm looking foward to where my career will take me! I value beeing able to constantly learn from my peers and workplaces where I can write quality code.
 
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
+    path:            assets/img/me-128.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+      1x:            assets/img/me-128.png
+      2x:            assets/img/me-256.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
