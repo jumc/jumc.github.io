@@ -57,8 +57,6 @@ menu:
     url:               /experience/
   - title:             Projects
     url:               /projects/
-  - title:             Volunteering
-    url:               /volunteering/
   - title:             Download Resume
     url:               /assets/docs/resume.pdf
 
